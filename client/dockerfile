@@ -1,0 +1,9 @@
+FROM ubuntu
+
+
+WORKDIR /app
+COPY package*.json ./
+COPY . .
+
+EXPOSE 5173
+
